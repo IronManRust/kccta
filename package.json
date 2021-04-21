@@ -8,7 +8,9 @@
         "chase",
         "courtyard",
         "townhome",
-        "association"
+        "association",
+        "batavia",
+        "illinois"
     ],
     "license": "MIT",
     "author": {
@@ -24,5 +26,22 @@
     "bugs": {
         "url": "https://github.com/IronManRust/kccta/issues",
         "email": "shawn_headrick@yahoo.com"
+    },
+    "scripts": {
+        "all-the-things": "npm run clean && npm run build && npm run serve",
+        "clean": "rimraf ./dist",
+        "build": "npm run build:content && npm run build:dependencies",
+        "build:content": "copyfiles --flat ./doc/*.* ./html/*.* ./img/*.* ./dist",
+        "build:dependencies": "copyfiles --flat ./node_modules/bootstrap/dist/css/bootstrap.min.css ./node_modules/bootstrap/dist/css/bootstrap.min.css.map ./node_modules/bootstrap/dist/js/bootstrap.min.js ./node_modules/bootstrap/dist/js/bootstrap.min.js.map ./node_modules/jquery/dist/jquery.slim.min.js ./node_modules/jquery/dist/jquery.slim.min.map ./dist",
+        "serve": "http-server ./dist -d false -a 0.0.0.0 -p 8080"
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6.0"
+    },
+    "devDependencies": {
+        "copyfiles": "^2.4.1",
+        "http-server": "^0.12.3",
+        "rimraf": "^3.0.2"
     }
 }
