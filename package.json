@@ -1,0 +1,28 @@
+{
+    "name": "kccta",
+    "version": "1.0.0",
+    "description": "This is the website for the Kirkland Chase Courtyard Townhome Association.",
+    "keywords": [
+        "kccta",
+        "kirkland",
+        "chase",
+        "courtyard",
+        "townhome",
+        "association"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Shawn Headrick",
+        "email": "shawn_headrick@yahoo.com",
+        "url": "https://github.com/IronManRust"
+    },
+    "homepage": "https://github.com/IronManRust/kccta",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IronManRust/kccta.git"
+    },
+    "bugs": {
+        "url": "https://github.com/IronManRust/kccta/issues",
+        "email": "shawn_headrick@yahoo.com"
+    }
+}
