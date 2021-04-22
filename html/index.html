@@ -14,19 +14,82 @@
     <meta property="og:image" content="./logo.png" />
     <link href="./favicon.ico" type="image/x-icon" rel="icon" />
     <link href="./bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <script src="./jquery.slim.min.js" type="text/javascript"></script>
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+    <script src="./jquery.min.js" type="text/javascript"></script>
     <script src="./bootstrap.min.js" type="text/javascript"></script>
+    <script src="./index.js" type="text/javascript"></script>
 </head>
 
-<body>
-    <div class="container">
+<body id="top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a id="nav-top" class="navbar-brand" href="#top">
+                <img src="./logo.png" title="Kirkland Chase Courtyard Townhome Association" alt="KCCTA">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive" aria-controls="navbar-responsive" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar-responsive" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="nav-intro" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#section-intro" aria-controls="section-intro">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-directors" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#section-directors" aria-controls="section-directors">Directors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-documents" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#section-documents" aria-controls="section-documents">Documents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-maintenance" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#section-maintenance" aria-controls="section-maintenance">Maintenance</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="section-intro">
         <div class="jumbotron text-center">
             <h1>Kirkland Chase Courtyard Townhome Association</h1>
         </div>
-        <div class="text-center">
-            <p>Located in the far west Chicago suburb of Batavia, the Kirkland Chase Courtyard Townhomes offer a blend of Fox Valley charm and Chicago sensibility.</p>
+        <div class="card w-75 mx-auto">
+            <div class="card-body">
+                <p class="card-text">Located in the far west Chicago suburb of Batavia, the Kirkland Chase Courtyard Townhomes offer a blend of Fox Valley charm and Chicago sensibility.</p>
+                <p>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d883.9528484076492!2d-88.28107335663364!3d41.82289030908815!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1619068208482!5m2!1sen!2sus" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
+                    </div>
+                </p>
+            </div>
         </div>
     </div>
+    <br />
+    <div id="section-directors">
+        <div class="card w-75 mx-auto">
+            <div class="card-body">
+                <h2 class="card-title">Directors</h2>
+                <p class="card-text">Here are the directors.</p>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="section-documents">
+        <div class="card w-75 mx-auto">
+            <div class="card-body">
+                <h2 class="card-title">Documents</h2>
+                <p class="card-text">Here are the documents.</p>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="section-maintenance">
+        <div class="card w-75 mx-auto">
+            <div class="card-body">
+                <h2 class="card-title">Maintenance</h2>
+                <p class="card-text">Here is the maintenance information.</p>
+            </div>
+        </div>
+    </div>
+    <!-- TODO: Footer -->
 </body>
 
 </html>
