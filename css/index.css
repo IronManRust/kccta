@@ -1,15 +1,27 @@
-.map-responsive {
+div.map-responsive {
     position: relative;
     height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
 }
 
-.map-responsive iframe {
+div.map-responsive iframe {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     border: 0;
+}
+
+div.w-90 {
+    width: 90%;
+}
+
+img.icon-small {
+    width: 128px;
+}
+
+img.icon-large {
+    width: 256px;
 }
