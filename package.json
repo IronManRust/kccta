@@ -40,8 +40,10 @@
         "jquery": "^3.6.0"
     },
     "devDependencies": {
+        "@netlify/plugin-sitemap": "^0.8.1",
         "copyfiles": "^2.4.1",
         "http-server": "^0.12.3",
+        "netlify-plugin-submit-sitemap": "^0.2.3",
         "rimraf": "^3.0.2"
     }
 }
