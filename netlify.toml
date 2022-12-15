@@ -1,6 +1,13 @@
 [build]
-  publish = "dist"
+publish = "dist"
+
 [[plugins]]
-  package = "@netlify/plugin-sitemap"
+package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+  changeFreq = "weekly"
+  priority = 0.5
+
 [[plugins]]
-  package = "netlify-plugin-submit-sitemap"
+package = "netlify-plugin-submit-sitemap"
+  [plugins.inputs]
+  providers = ["google", "bing", "yandex"]
