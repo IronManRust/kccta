@@ -16,6 +16,13 @@ div.map-responsive iframe {
 
 div.w-90 {
     width: 90%;
+    max-width: 1280px;
+}
+
+#carousel {
+    width: 384px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.icon-small {
