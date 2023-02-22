@@ -19,6 +19,25 @@ div.w-90 {
     max-width: 1280px;
 }
 
+@media (min-width:992px) {
+    #brand-header {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #brand-jumbotron {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    #brand-header {
+        display: none;
+    }
+    #brand-jumbotron {
+        display: block;
+    }
+}
+
 #carousel {
     width: 384px;
     margin-left: auto;
