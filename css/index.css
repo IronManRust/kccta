@@ -43,9 +43,16 @@ div.w-90 {
 }
 
 #carousel {
-    max-width: 384px;
+    max-height: 500px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
 }
 
 img.icon-small {
