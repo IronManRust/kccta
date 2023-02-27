@@ -1,3 +1,7 @@
+h2 {
+    padding-bottom: 2rem;
+}
+
 div.map-responsive {
     position: relative;
     height: 0;
