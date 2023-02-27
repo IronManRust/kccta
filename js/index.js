@@ -2,7 +2,7 @@ jQuery(function () {
     navs = [
         "#nav-top",
         "#nav-information",
-        "#nav-directors",
+        "#nav-contact",
         "#nav-documents",
         "#nav-maintenance"
     ]
