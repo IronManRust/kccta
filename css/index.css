@@ -55,6 +55,11 @@ div.w-90 {
     filter: invert(100%);
 }
 
+#nav-top>img {
+    height: 50%;
+    width: 50%;
+}
+
 img.icon-small {
     width: 128px;
 }
