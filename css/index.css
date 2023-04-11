@@ -61,9 +61,5 @@ div.w-90 {
 }
 
 img.icon-small {
-    width: 128px;
-}
-
-img.icon-large {
-    width: 256px;
+    width: 64px;
 }
