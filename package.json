@@ -31,7 +31,7 @@
         "all-the-things": "npm run clean && npm run build && npm run serve",
         "clean": "rimraf ./dist",
         "build": "npm run build:content && npm run build:dependencies",
-        "build:content": "copyfiles --flat ./css/*.* ./doc/*.* ./html/*.* ./img/*.* ./js/*.* ./dist",
+        "build:content": "copyfiles --flat ./css/*.* ./doc/*.* ./html/*.* ./img/*.* ./js/*.* ./txt/*.* ./dist",
         "build:dependencies": "copyfiles --flat ./node_modules/bootstrap/dist/css/bootstrap.min.css ./node_modules/bootstrap/dist/css/bootstrap.min.css.map ./node_modules/bootstrap/dist/js/bootstrap.min.js ./node_modules/bootstrap/dist/js/bootstrap.min.js.map ./node_modules/jquery/dist/jquery.min.js ./node_modules/jquery/dist/jquery.min.map ./dist",
         "serve": "http-server ./dist -d false -a 0.0.0.0 -p 8080"
     },
